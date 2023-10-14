@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { IShip } from '../interfaces/ship';
+import { ShipService } from '../services/ship/ship.service';
 
 @Component({
   selector: 'app-ships',
@@ -17,7 +18,7 @@ export class ShipsComponent {
   constructor(
     private route: ActivatedRoute,
     private modalService: NgbModal,
-    private shipService: ShipsService
+    private shipService: ShipService
   ) {
     this.ships = [];
     this.page = 1;
