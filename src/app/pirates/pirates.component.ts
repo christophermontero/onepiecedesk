@@ -14,7 +14,7 @@ export class PiratesComponent {
   pirates: IPirate[];
   page: number;
   pageSize: number;
-  headlineTitle: string;
+  headerTitle: string;
 
   constructor(
     private route: ActivatedRoute,
@@ -24,7 +24,7 @@ export class PiratesComponent {
     this.pirates = [];
     this.page = 1;
     this.pageSize = 10;
-    this.headlineTitle = '';
+    this.headerTitle = '';
   }
 
   ngOnInit(): void {
@@ -32,7 +32,7 @@ export class PiratesComponent {
       this.pirates = pirates;
     });
     this.route.url.subscribe((url: UrlSegment[]) => {
-      this.headlineTitle = url[0].path
+      this.headerTitle = url[0].path
         ? url[0].path.charAt(0).toUpperCase() + url[0].path.slice(1)
         : 'Pirates';
     });

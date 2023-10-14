@@ -1,12 +1,12 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-headline',
-  templateUrl: './headline.component.html',
-  styleUrls: ['./headline.component.less']
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.less']
 })
-export class HeadlineComponent {
-  @Input() headlineTitle: string = '';
+export class HeaderComponent {
+  @Input() headerTitle: string = '';
 
   constructor() {}
 }
