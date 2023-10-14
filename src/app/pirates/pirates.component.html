@@ -1,1 +1,17 @@
-<p>pirates works!</p>
+<app-headline [headlineTitle]="headlineTitle"></app-headline>
+<div class="container-fluid">
+  <p class="lead text-center mt-4">Explore the adventurous world of One Piece with these legendary pirates.</p>
+  <div class="content-center">
+    <figure class="card" *ngFor="let pirate of pirates.slice(startIndex, endIndex)">
+      <img src="{{pirate.image}}" alt="{{pirate.name}}" />
+      <figcaption>
+        <h3>{{pirate.name}}<span>{{pirate.lastname ?? pirate.nickname}}</span></h3>
+      </figcaption>
+      <a (click)="openPirateModal(pirate)"></a>
+    </figure>
+  </div>
+  <div class="d-flex justify-content-center">
+    <ngb-pagination [collectionSize]="pirates.length" [pageSize]="pageSize" [(page)]="page" aria-label="Pagination">
+    </ngb-pagination>
+  </div>
+</div>

@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "name": "monkey d.",
+    "lastname": "luffy",
+    "nickname": "strawhat",
+    "age": 19,
+    "image": "assets/images/pirates/luffy.jpg",
+    "description": "Also known as Straw Hat Luffy and commonly as Straw Hat, is the founder and captain of the increasingly infamous and powerful Straw Hat Pirates, as well as the most powerful of its top fighters."
+  },
+  {
+    "id": 2,
+    "name": "shanks",
+    "nickname": "redhair",
+    "age": 37,
+    "image": "assets/images/pirates/shanks.jpg",
+    "description": "Commonly known as just Red Hair, is the chief of the Red Hair Pirates and one of the Four Emperors that rule over the New World."
+  },
+  {
+    "id": 3,
+    "name": "roronoa",
+    "lastname": "zoro",
+    "nickname": "pirate hunter",
+    "age": 21,
+    "image": "assets/images/pirates/zoro.jpg",
+    "description": "Also known as Pirate Hunter Zoro, is a main combatant of the Straw Hat Pirates, one of their two swordsmen, one of the Senior Officers of the Straw Hat Grand Fleet, and is publicly recognized as the right-hand man of his crew's captain Monkey D."
+  },
+  {
+    "id": 4,
+    "name": "nami",
+    "nickname": "cat burglar",
+    "age": 20,
+    "image": "assets/images/pirates/nami.jpg",
+    "description": "Is the navigator of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet. She is the third member of the crew and the second to join, doing so during the Orange Town Arc. She is the adoptive sister of Nojiko after the two were orphaned and taken in by Bell-mère."
+  },
+  {
+    "id": 5,
+    "name": "boa",
+    "lastname": "hancock",
+    "nickname": "pirate empress",
+    "age": 31,
+    "image": "assets/images/pirates/boa.jpg",
+    "description": "Is the captain of the Kuja Pirates and was the only female Warlord of the Sea before the organization's disbandment. She is the current empress, known as the Snake Princess, of Amazon Lily and rules over the Kuja tribe with her two younger sisters, Boa Sandersonia and Boa Marigold."
+  },
+  {
+    "id": 6,
+    "name": "sanji",
+    "lastname": "vinsmoke",
+    "nickname": "blackleg",
+    "age": 21,
+    "image": "assets/images/pirates/sanji.jpg",
+    "description": "Born as Vinsmoke Sanji, is the cook of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet. He is the fifth member of the crew and the fourth to join, doing so at the end of the Baratie Arc."
+  },
+  {
+    "id": 7,
+    "name": "tony tony",
+    "lastname": "chopper",
+    "nickname": "cotton candy lover",
+    "age": 17,
+    "image": "assets/images/pirates/chopper.jpg",
+    "description": "Also known as Cotton Candy Lover Chopper, is the doctor of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet. He is the sixth member of the crew and the fifth to join, doing so at the end of the Drum Island Arc."
+  },
+  {
+    "id": 8,
+    "name": "usopp",
+    "nickname": "sogeking",
+    "age": 19,
+    "image": "assets/images/pirates/usopp.jpg",
+    "description": "Is the sniper of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet. He is the fourth member of the crew and the third to join, doing so at the end of the Syrup Village Arc. Although he left the crew during the Water 7 Arc, he rejoined at the end of the Post-Enies Lobby Arc."
+  },
+  {
+    "id": 9,
+    "name": "monkey d.",
+    "lastname": "garp",
+    "nickname": "garp the fist",
+    "age": 78,
+    "image": "assets/images/pirates/garp.jpg",
+    "description": "Also known as Garp the Fist, is an extremely famous and powerful Marine vice admiral. He is the father of Monkey D. Dragon, the paternal grandfather of Monkey D. Luffy, and the adoptive grandfather of Portgas D. Ace."
+  },
+  {
+    "id": 10,
+    "name": "portgas d.",
+    "lastname": "ace",
+    "nickname": "fire fist",
+    "age": 20,
+    "image": "assets/images/pirates/ace.jpeg",
+    "description": "Born as Gol D. Ace and nicknamed Fire Fist Ace, was the biological son of the late Pirate King, Gol D. Roger, and Portgas D. Rouge, as well as the sworn older brother of Luffy and Sabo. Ace was adopted by Monkey D. Garp, as had been requested by Roger before his execution. Ace was captain of the Spade Pirates before being recruited into the Whitebeard Pirates and becoming its 2nd division commander"
+  },
+  {
+    "id": 11,
+    "name": "franky",
+    "nickname": "cyborg",
+    "age": 36,
+    "image": "assets/images/pirates/franky.jpg",
+    "description": "Is the shipwright of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet. He is the crew's eighth member and the seventh to join, doing so at the end of the Post-Enies Lobby Arc."
+  },
+  {
+    "id": 12,
+    "name": "kaido",
+    "nickname": "of the beasts",
+    "age": 50,
+    "image": "assets/images/pirates/kaido.jpg",
+    "description": "Renowned as the world's Strongest Creature, is the Governor-General of the Beasts Pirates and was formerly one of the Four Emperors that ruled over the New World. He is also the father of Yamato."
+  },
+  {
+    "id": 13,
+    "name": "buggy",
+    "nickname": "the clown",
+    "age": 39,
+    "image": "assets/images/pirates/buggy.jpg",
+    "description": "Is the captain of the Buggy Pirates as well as the co-leader of the Buggy and Alvida Alliance, and a former apprentice of the Roger Pirates alongside Shanks. Shortly after the Summit War of Marineford, he became a member of the Seven Warlords of the Sea and the leader of the pirate dispatch organization Buggy's Delivery"
+  },
+  {
+    "id": 14,
+    "name": "kuina",
+    "lastname": "shimotsuki",
+    "nickname": "the sword",
+    "age": 11,
+    "image": "assets/images/pirates/kuina.jpg",
+    "description": "Was a childhood friend, relative and rival of Roronoa Zoro. She was the daughter of Shimotsuki Koushirou and a descendant of Wano Country's famed Shimotsuki Family. Her death at the age of eleven drove much of Zoro's ambitions as a swordsman, including his development of the Three Sword Style"
+  },
+  {
+    "id": 15,
+    "name": "arlong",
+    "nickname": "the saw",
+    "age": 41,
+    "image": "assets/images/pirates/arlong.png",
+    "description": "Is a sawshark fish-man. He was the captain of the all fish-man crew, the Arlong Pirates, a former member of the Sun Pirates, and the older half-brother of Madam Shyarly. He is also a major inspirational figure for the New Fish-Man Pirates."
+  },
+  {
+    "id": 16,
+    "name": "zeff",
+    "nickname": "red leg",
+    "age": 61,
+    "image": "assets/images/pirates/zeff.jpg",
+    "description": "Is the head chef and owner of Baratie. Before that, he was the captain of the Cook Pirates (in which he was known as Red-Leg) until his crew was annihilated in a storm."
+  },
+  {
+    "id": 17,
+    "name": "gol d.",
+    "lastname": "roger",
+    "nickname": "pirate king",
+    "age": 53,
+    "image": "assets/images/pirates/roger.jpeg",
+    "description": "More commonly known as Gold Roger, was a legendary pirate who, as captain of the Roger Pirates, held the title of Pirate King and owned the legendary treasure known as One Piece. He was also the lover of Portgas D. Rouge and the biological father of Portgas D. Ace."
+  },
+  {
+    "id": 18,
+    "name": "trafalgar d.",
+    "lastname": "water law",
+    "nickname": "surgeon of death",
+    "age": 26,
+    "image": "assets/images/pirates/law.jpg",
+    "description": "More commonly known as just Trafalgar Law and by his epithet as the Surgeon of Death, is a pirate from North Blue and the captain and doctor of the Heart Pirates. He is one of twelve pirates who are referred to as the Worst Generation. He became one of the Seven Warlords of the Sea during the timeskip, but his position was revoked for allying with the Straw Hat Pirates."
+  },
+  {
+    "id": 19,
+    "name": "nico",
+    "lastname": "robin",
+    "nickname": "devil child",
+    "age": 30,
+    "image": "assets/images/pirates/robin.jpeg",
+    "description": "Also known by her epithet Devil Child and the Light of the Revolution, is the archaeologist of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet. She is the seventh member of the crew and the sixth to join, doing so at the end of the Arabasta Arc. She temporarily left the crew during the Water 7 Arc but rejoined during the Enies Lobby Arc."
+  },
+  {
+    "id": 20,
+    "name": "sakazuki",
+    "nickname": "akainu",
+    "age": 55,
+    "image": "assets/images/pirates/akainu.jpeg",
+    "description": "Formerly known by his admiral alias Akainu, is the current fleet admiral of the Marines, succeeding the previous fleet admiral, Sengoku. During the first half of the series, he was one of the three admirals, and was the last one out of the three to debut. Upon becoming the fleet admiral, one of Sakazuki's first decisions was to relocate Marine Headquarters into the New World in preparation for the New Pirate Age."
+  }
+]
