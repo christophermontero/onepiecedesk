@@ -5,11 +5,11 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpInterceptorService } from './services/http-interceptor/http-interceptor.service';
 import { HeaderComponent } from './header/header.component';
+import { HttpInterceptorService } from './services/http-interceptor/http-interceptor.service';
 
 @NgModule({
-  declarations: [AppComponent, routingComponents, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, routingComponents],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [
     {
