@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "oro jackson",
+    "crew": "roger pirates",
+    "bounty": 5564800000,
+    "captain": "gol d. roger",
+    "image": "assets/images/ships/oro.webp",
+    "description": "The first position belongs to the Legendary Oro Jackson, the main ship of the mighty Roger Pirates. This ship was built by a brilliant shipwright Tom (who raised Iceburg and Franky) and was made out of Adam Wood, which is considered to strongest and top-quality wood. This was the only ship to sail across the world of One Piece and even reached Laugh Tale. Oro Jackson has the red-color theme all over it as the main man Roger."
+  },
+  {
+    "id": 2,
+    "name": "moby dick",
+    "crew": "whitebeard pirates",
+    "bounty": 7480000000,
+    "captain": "edward newgate",
+    "image": "assets/images/ships/moby.webp",
+    "description": "Whitebeard's main flagship name was inspired by the classic tale — Moby Dick. Like the titular character (a white sperm whale) in the tale, the ship's design is particularly familiar. This is another battleship that is enormous in size like the man Whitebeard himself. Still, it is the most traditional-looking pirate ship we have seen in One Piece."
+  },
+  {
+    "id": 3,
+    "name": "queen mama chanter",
+    "crew": "big mom pirates",
+    "bounty": 10121500000,
+    "captain": "charlotte linlin",
+    "image": "assets/images/ships/queen.webp",
+    "description": "Big Mom's devil fruit Soru Soru no Mi, one of the strongest devil fruits, allows her to give life to inanimate objects. And if you've forgotten, she refers to these animated objects as “Homies.” Thus, Big Mom's flagship pirate ship in One Piece (the Queen Mama Chanter) is a ship homie that has life. The giant figurehead at the front can sing “Ship,” an example of the parts of being alive"
+  },
+  {
+    "id": 4,
+    "name": "polar tang",
+    "crew": "heart pirates",
+    "bounty": 3000000500,
+    "captain": "trafalgar d. water law",
+    "image": "assets/images/ships/polar.webp",
+    "description": "The Polar Tang is a submarine that uses engines to travel around the sea. When the engine is not in use, the two masts at the front and rear have retractable sails, which can help them sail like a normal ship. Thus, we have a 2-in-1 versatile ship and is the only type of pirate ship to exist."
+  },
+  {
+    "id": 5,
+    "name": "thousand sunny",
+    "crew": "straw hat pirates",
+    "bounty": 8816001000,
+    "captain": "monkey d. luffy",
+    "image": "assets/images/ships/thousand.webp",
+    "description": "After Going Merry's farewell, the Thousand Sunny was ready to inherit its will to become the second pirate ship of the Straw Hat Pirates in One Piece. Recently, this ship attracted a lot of fans with its part in the latest One Piece movie, One Piece Film: Red. The Thousand Sunny is a modern pirate ship, resembling the brigantine ships. It was built by Franky and The Galley-La Company, who are known to be the best shipwrights in the world."
+  },
+  {
+    "id": 6,
+    "name": "thriller bark",
+    "crew": "thriller bark pirates",
+    "bounty": 320000000,
+    "captain": "gecko moria",
+    "image": "assets/images/ships/thriller.webp",
+    "description": "The Thriller Bark is recognized as the biggest pirate ship in the One Piece world right now. Surprisingly, this pirate ship used to be an island in West Blue until it was turned into a gigantic ship by Gecko Moria, a former Warlord. Gecko leads the Thriller Bark Pirates and this is his main ship. I mean, an entire arc took place on this island, and it was entertaining as heck. This ship used to reside in the Florian Triangle (much similar to the Bermuda Triangle we have in our world)."
+  },
+  {
+    "id": 7,
+    "name": "red force",
+    "crew": "red hair pirates",
+    "bounty": 4142900000,
+    "captain": "shanks",
+    "image": "assets/images/ships/red.webp",
+    "description": "Undeniably, just like their captain Shanks, Red Force is the most ferocious-looking pirate ship in One Piece. It is the current primary ship of the Red Hair Pirates, replacing their old one. This ship retains the major characteristics of the old ship like the figurehead on the front. The dragon-like figurehead adds more fierceness to the appearance of the ship, and it's way more detailed than its predecessor."
+  },
+  {
+    "id": 8,
+    "name": "nostra castello",
+    "crew": "fire tank pirates",
+    "bounty": 535000000,
+    "captain": "capone bege",
+    "image": "assets/images/ships/nostra.jpg",
+    "description": "The lone mafia figure in the One Piece universe is Capone Bege. His primary ship was built with his Fortress-based devil fruit abilities in mind. The author meticulously constructed this ship as a piece of art with the fortress's theme in mind. Compared to other ships, you can see how well-detailed it is. Nostra Castello resembles a paddle ship and doesn't require sails since it has flexible tank treads on either side, which allow it to travel."
+  },
+  {
+    "id": 9,
+    "name": "flyng dutchman",
+    "crew": "flying pirates",
+    "bounty": 0,
+    "captain": "vander decken ix",
+    "image": "assets/images/ships/flyng.webp",
+    "description": "Unquestionably, the Flying Dutchman is an iconic ship in the sailing lore, which was also shown in the popular “Pirates of the Caribbean” movie series. Just like in folklore, it is said to be a ghost ship, cursed to wander the seas forever, in One Piece too. This ship has been used by the first Vander Decken, and it continued with his descendants. The newest captain to sail on this ship is Vander Decken IX, who was a major antagonist against the Straw Hats during the Fish-Man Island arc."
+  },
+  {
+    "id": 10,
+    "name": "shark superb",
+    "crew": "arlong pirates",
+    "bounty": 42500000,
+    "captain": "arlong",
+    "image": "assets/images/ships/shark.webp",
+    "description": "Undoubtedly, the Arlong Pirates not only had a distinctive Jolly Roger, but their ship was also uniquely designed with the shark theme in mind. It was based on their captain Arlong, as you can see the Saw-Shark nose at the front. This ship was painted red and the shark teeth design was implemented all over the ship's edges."
+  },
+  {
+    "id": 11,
+    "name": "baratie",
+    "crew": "zeff and his cooks",
+    "bounty": 0,
+    "captain": "zeff",
+    "image": "assets/images/ships/baratie.webp",
+    "description": "Remember the time the Straw Hats were in search of a cook for their crew and landed at an ocean-moving restaurant? Yes, it was the ship named Baratie. It was a unique ship that hosted a restaurant run by Red-Leg Zeff (the adoptive father of Sanji). The entire Baratie mini-arc took place in this restaurant. It is rich in color and has a giant fish head at the front, which doubles as a paddleboat usually piloted by Patty and Carne."
+  },
+  {
+    "id": 12,
+    "name": "victory hunter",
+    "crew": "saruyama alliance",
+    "bounty": 84000000,
+    "captain": "mont blanc cricket",
+    "image": "assets/images/ships/victory.webp",
+    "description": "Remember the funny pirate alliance that the Straw Hat Pirates encountered during the Jaya arc when they tried to salvage another ship? Yes! They are the Saruyama Alliance, and one could have easily forgotten them since they appeared a long time ago. To remind you, this alliance featured a funny and interesting pirate ship. This is their ship, mainly Mashira's, and is based on a monkey theme."
+  },
+  {
+    "id": 13,
+    "name": "perfume yuda",
+    "crew": "kuja pirates",
+    "bounty": 1739000000,
+    "captain": "boa hancock",
+    "image": "assets/images/ships/perfume.webp",
+    "description": "The alluring Kuja Pirates main ship name is Perfume Yuda. The Kuja Pirates are led by Pirate empress Boa Hancock, one of the best female characters in One Piece, and the captain of the ship. This ship is more similar to ancient Chinese ships called the “Junk.” It is very big and painted red and black all over with two sea serpents (Yuda) hitched up the front. These sea serpents can help them travel through the Calm Belt easily."
+  },
+  {
+    "id": 14,
+    "name": "wind granma",
+    "crew": "revolutionary army",
+    "bounty": 0,
+    "captain": "monkey d. dragon",
+    "image": "assets/images/ships/wind.webp",
+    "description": "The One Piece world's most wanted criminal is Monkey D. Dragon, and he has his own ship called the Wind Granma for his organization, Revolutionary Army. It is another gigantic ship, and like this ship captain's name, it has an enormous dragon from the start of the ship to the end. The dragon theme really suits them symbolically and “Granma” was actually a real yacht used during the Cuban revolution. The Dragon at the front and its tail ending in the back is a good design that captures one's eye easily."
+  }
+]

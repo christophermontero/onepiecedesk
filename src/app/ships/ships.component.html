@@ -1,1 +1,17 @@
-<p>ships works!</p>
+<app-headline [headlineTitle]="headlineTitle"></app-headline>
+<div class="container-fluid">
+  <p class="lead text-center mt-4">Explore the adventurous world of One Piece with these legendary ships.</p>
+  <div class="content-center">
+    <figure class="card" *ngFor="let ship of ships.slice(startIndex, endIndex)">
+      <img src="{{ship.image}}" alt="{{ship.name}}" />
+      <figcaption>
+        <h3><span>{{ship.name}}</span></h3>
+      </figcaption>
+      <a (click)="openShipModal(ship)"></a>
+    </figure>
+  </div>
+  <div *ngIf="ships.length > pageSize" class="d-flex justify-content-center">
+    <ngb-pagination [collectionSize]="ships.length" [pageSize]="pageSize" [(page)]="page" aria-label="Pagination">
+    </ngb-pagination>
+  </div>
+</div>
