@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, UrlSegment } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { IPirate } from '../interfaces/pirate';
+import { PirateComponent } from '../pirate/pirate.component';
 import { PirateService } from '../services/pirates/pirate.service';
 
 @Component({

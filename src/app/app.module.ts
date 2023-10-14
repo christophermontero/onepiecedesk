@@ -6,10 +6,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpInterceptorService } from './services/http-interceptor/http-interceptor.service';
-import { ShipsComponent } from './ships/ships.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, routingComponents, ShipsComponent],
+  declarations: [AppComponent, routingComponents, HeaderComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [
     {

@@ -1,0 +1,41 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{ ship.name | titlecase }}</h4>
+  <button type="button" class="close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="image-container">
+        <img [src]="ship.image" alt="ship.name" class="img-fluid" />
+      </div>
+    </div>
+    <div class="col-md-12">
+      <h5 class="text-center my-3">Character Information</h5>
+      <div class="table-wrapper">
+        <table class="fl-table">
+          <thead>
+            <tr>
+              <th>Crew</th>
+              <th *ngIf="ship.bounty">Bounty</th>
+              <th>Captain</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{ ship.crew | titlecase }}</td>
+              <td *ngIf="ship.bounty">
+                <span class="fst-italic">{{ ship.bounty | number:'1.0-0' }}</span> Berries
+              </td>
+              <td>{{ ship.captain | titlecase }}</td>
+            </tr>
+          <tbody>
+        </table>
+      </div>
+      <hr>
+      <h5 class="text-center">Description</h5>
+      <p class="text-muted text-justify">{{ ship.description }}</p>
+    </div>
+  </div>
+</div>

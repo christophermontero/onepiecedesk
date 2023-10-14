@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { IShip } from '../interfaces/ship';
 import { ShipService } from '../services/ship/ship.service';
+import { ShipComponent } from '../ship/ship.component';
 
 @Component({
   selector: 'app-ships',

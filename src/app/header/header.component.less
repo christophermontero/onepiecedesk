@@ -1,0 +1,54 @@
+.headline {
+  --dur: 5s;
+  --color: #48dbfb;
+
+  align-items: center;
+  background-color: var(--color);
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  scroll-snap-align: start;
+  width: 100%;
+
+  .headline-title {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    font-size: calc(1rem + 10vmin);
+  }
+}
+
+.headline-sail {
+  &:before,
+  &:after {
+    animation: wave var(--dur) linear infinite;
+    background-image: radial-gradient(
+      circle at 20px -30px,
+      transparent 40px,
+      var(--color) 40px
+    );
+    background-repeat: repeat-x;
+    background-size: 40px 100%;
+    content: '';
+    height: 150%;
+    left: 0;
+    position: absolute;
+    opacity: 0.85;
+    top: 60%;
+    width: 200%;
+    z-index: 2;
+  }
+
+  &:after {
+    animation-duration: calc(var(--dur) * 1.4);
+    opacity: 0.75;
+    top: 50%;
+  }
+}
+
+@keyframes wave {
+  to {
+    transform: translateX(-200px);
+  }
+}

@@ -5,7 +5,7 @@ import { IShip } from 'src/app/interfaces/ship';
 @Injectable({
   providedIn: 'root'
 })
-export class ShipsService {
+export class ShipService {
   private _url: string = '../../assets/data/ships.json';
 
   constructor(private http: HttpClient) {}
