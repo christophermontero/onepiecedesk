@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <button (click)="isCollapsed = !isCollapsed" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a [routerLink]="['/']" class="navbar-brand">
+      <img src="assets/one-piece-brand.png" alt="one-piece-brand" width="120" height="60"
+        class="d-inline-block align-text-top">
+    </a>
+    <div #navBarCollapse class="collapse navbar-collapse" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a [routerLink]="['/pirates']" routerLinkActive="active" class="nav-link fs-5" aria-current="page">Pirates</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/ships']" routerLinkActive="active" class="nav-link fs-5">Ships</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

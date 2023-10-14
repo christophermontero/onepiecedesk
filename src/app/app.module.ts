@@ -7,9 +7,10 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HttpInterceptorService } from './services/http-interceptor/http-interceptor.service';
+import { CrowsNestComponent } from './crows-nest/crows-nest.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, routingComponents],
+  declarations: [AppComponent, HeaderComponent, routingComponents, CrowsNestComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [
     {
