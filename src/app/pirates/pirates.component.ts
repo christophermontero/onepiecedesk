@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, UrlSegment } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { IPirate } from '../interfaces/pirate';
-import { PirateService } from '../services/pirates/pirates.service';
+import { PirateService } from '../services/pirates/pirate.service';
 
 @Component({
   selector: 'app-pirates',

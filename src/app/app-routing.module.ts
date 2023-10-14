@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { PirateComponent } from './pirate/pirate.component';
 import { PiratesComponent } from './pirates/pirates.component';
 import { ShipsComponent } from './ships/ships.component';
 
@@ -15,4 +16,8 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {}
-export const routingComponents = [PiratesComponent, ShipsComponent];
+export const routingComponents = [
+  PiratesComponent,
+  ShipsComponent,
+  PirateComponent
+];
