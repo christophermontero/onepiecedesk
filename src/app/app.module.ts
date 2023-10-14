@@ -6,9 +6,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpInterceptorService } from './services/http-interceptor/http-interceptor.service';
+import { PiratesComponent } from './pirates/pirates.component';
+import { ShipsComponent } from './ships/ships.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, PiratesComponent, ShipsComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [
     {
