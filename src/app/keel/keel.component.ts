@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class KeelComponent {
   currentYear: number;
+  repository: string;
 
   constructor() {
     this.currentYear = new Date().getFullYear();
+    this.repository = 'https://github.com/christophermontero/onepiecedesk.git';
   }
 }
