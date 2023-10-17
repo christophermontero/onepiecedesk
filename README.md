@@ -30,8 +30,11 @@ Link to demo [https://onepiecedesk.netlify.app](https://onepiecedesk.netlify.app
 ## Tech Stack
 
 **Angular version** 16.2.0
+
 **Angular cli version:** 16.2.3
+
 **Node version:** 18.12.1
+
 **NPM version:** 8.19.2
 
 ## Installation
