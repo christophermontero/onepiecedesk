@@ -72,3 +72,4 @@ If you have any feedback, please reach out at cgortizm21@gmail.com
 ## Authors
 
 - [@christophermontero](https://github.com/christophermontero)
+- [@JorgeChaparroS](https://github.com/JorgeChaparroS)
