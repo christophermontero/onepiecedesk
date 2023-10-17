@@ -6,8 +6,10 @@
       <img src="{{ship.image}}" alt="{{ship.name}}" />
       <figcaption>
         <h3><span>{{ship.name}}</span></h3>
+        <button class="btn btn-info mt-2">
+          <span (click)="openShipModal(ship)" class="text-muted fs-6">See more</span>
+        </button>
       </figcaption>
-      <a (click)="openShipModal(ship)"></a>
     </figure>
   </div>
   <div *ngIf="ships.length > pageSize" class="d-flex justify-content-center">
