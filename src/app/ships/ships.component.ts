@@ -15,10 +15,8 @@ export class ShipsComponent {
   cardsLength: number = 0;
   cardsPerPage: number = 6;
   currentPage: number = 1;
-  headerTitle: string = '';
 
   constructor(
-    private route: ActivatedRoute,
     private modalService: NgbModal,
     private shipService: ShipService
   ) {}
@@ -27,11 +25,6 @@ export class ShipsComponent {
     this.shipService.getShips().subscribe((ships: IShip[]) => {
       this.ships = ships;
       this.cardsLength = this.ships.length;
-    });
-    this.route.url.subscribe((url: any) => {
-      this.headerTitle = url[0].path
-        ? url[0].path.charAt(0).toUpperCase() + url[0].path.slice(1)
-        : 'Ships';
     });
   }
 

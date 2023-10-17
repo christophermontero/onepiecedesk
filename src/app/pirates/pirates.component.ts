@@ -15,10 +15,8 @@ export class PiratesComponent {
   cardsLength: number = 0;
   cardsPerPage: number = 6;
   currentPage: number = 1;
-  headerTitle: string = '';
 
   constructor(
-    private route: ActivatedRoute,
     private modalService: NgbModal,
     private pirateService: PirateService
   ) {}
@@ -27,11 +25,6 @@ export class PiratesComponent {
     this.pirateService.getPirates().subscribe((pirates: IPirate[]) => {
       this.pirates = pirates;
       this.cardsLength = this.pirates.length;
-    });
-    this.route.url.subscribe((url: UrlSegment[]) => {
-      this.headerTitle = url[0].path
-        ? url[0].path.charAt(0).toUpperCase() + url[0].path.slice(1)
-        : 'Pirates';
     });
   }
 
