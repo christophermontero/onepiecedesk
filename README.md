@@ -1,4 +1,4 @@
-<p align="center"><img src="./src/assets/onepiece.gif" alt="Logo")></p>
+<p align="center"><img src="./src/assets/one-piece-footer.png" alt="logo")></p>
 
 # OnePiece Desk
 
@@ -21,7 +21,7 @@
 
 ## Screenshots
 
-![App Screenshot](./src/assets/onepiece-screenshot.png)
+![One Piece Screencast](./src/assets/onepiece.gif)
 
 ## Demo
 
