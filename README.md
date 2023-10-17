@@ -1,6 +1,4 @@
-<div style="text-align:center">
-    ![Logo](./src/assets/one-piece-brand.png)
-</div>
+<p align="center">![Logo](./src/assets/one-piece-brand.png)</p>
 
 # OnePiece Desk
 
