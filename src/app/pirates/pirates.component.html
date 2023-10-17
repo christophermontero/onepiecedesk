@@ -12,8 +12,6 @@
       </figcaption>
     </figure>
   </div>
-  <div class="d-flex justify-content-center">
-    <ngb-pagination [collectionSize]="pirates.length" [pageSize]="pageSize" [(page)]="page" aria-label="Pagination">
-    </ngb-pagination>
-  </div>
+  <app-paginator (currPageChanged)="handleCurrPageChanged($event)" [currentPage]="currentPage"
+    [cardsPerPage]="cardsPerPage" [cardsLength]="cardsLength"></app-paginator>
 </div>

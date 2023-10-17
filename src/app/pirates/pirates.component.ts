@@ -11,25 +11,22 @@ import { PirateService } from '../services/pirates/pirate.service';
   styleUrls: ['./pirates.component.less']
 })
 export class PiratesComponent {
-  pirates: IPirate[];
-  page: number;
-  pageSize: number;
-  headerTitle: string;
+  pirates: IPirate[] = [];
+  cardsLength: number = 0;
+  cardsPerPage: number = 6;
+  currentPage: number = 1;
+  headerTitle: string = '';
 
   constructor(
     private route: ActivatedRoute,
     private modalService: NgbModal,
     private pirateService: PirateService
-  ) {
-    this.pirates = [];
-    this.page = 1;
-    this.pageSize = 10;
-    this.headerTitle = '';
-  }
+  ) {}
 
   ngOnInit(): void {
     this.pirateService.getPirates().subscribe((pirates: IPirate[]) => {
       this.pirates = pirates;
+      this.cardsLength = this.pirates.length;
     });
     this.route.url.subscribe((url: UrlSegment[]) => {
       this.headerTitle = url[0].path
@@ -38,12 +35,16 @@ export class PiratesComponent {
     });
   }
 
+  handleCurrPageChanged(newPage: number): void {
+    this.currentPage = newPage;
+  }
+
   get startIndex(): number {
-    return (this.page - 1) * this.pageSize;
+    return (this.currentPage - 1) * this.cardsPerPage;
   }
 
   get endIndex(): number {
-    return this.page * this.pageSize;
+    return this.currentPage * this.cardsPerPage;
   }
 
   openPirateModal(pirate: IPirate): void {

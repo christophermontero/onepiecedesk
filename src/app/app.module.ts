@@ -9,9 +9,10 @@ import { HeaderComponent } from './header/header.component';
 import { HttpInterceptorService } from './services/http-interceptor/http-interceptor.service';
 import { CrowsNestComponent } from './crows-nest/crows-nest.component';
 import { KeelComponent } from './keel/keel.component';
+import { PaginatorComponent } from './paginator/paginator.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, routingComponents, CrowsNestComponent, KeelComponent],
+  declarations: [AppComponent, HeaderComponent, routingComponents, CrowsNestComponent, KeelComponent, PaginatorComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [
     {

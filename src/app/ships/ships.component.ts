@@ -11,25 +11,22 @@ import { ShipComponent } from '../ship/ship.component';
   styleUrls: ['./ships.component.less']
 })
 export class ShipsComponent {
-  ships: IShip[];
-  page: number;
-  pageSize: number;
-  headerTitle: string;
+  ships: IShip[] = [];
+  cardsLength: number = 0;
+  cardsPerPage: number = 6;
+  currentPage: number = 1;
+  headerTitle: string = '';
 
   constructor(
     private route: ActivatedRoute,
     private modalService: NgbModal,
     private shipService: ShipService
-  ) {
-    this.ships = [];
-    this.page = 1;
-    this.pageSize = 10;
-    this.headerTitle = '';
-  }
+  ) {}
 
   ngOnInit(): void {
     this.shipService.getShips().subscribe((ships: IShip[]) => {
       this.ships = ships;
+      this.cardsLength = this.ships.length;
     });
     this.route.url.subscribe((url: any) => {
       this.headerTitle = url[0].path
@@ -38,12 +35,16 @@ export class ShipsComponent {
     });
   }
 
+  handleCurrPageChanged(newPage: number): void {
+    this.currentPage = newPage;
+  }
+
   get startIndex(): number {
-    return (this.page - 1) * this.pageSize;
+    return (this.currentPage - 1) * this.cardsPerPage;
   }
 
   get endIndex(): number {
-    return this.page * this.pageSize;
+    return this.currentPage * this.cardsPerPage;
   }
 
   openShipModal(ship: IShip): void {

@@ -1,0 +1,5 @@
+<div *ngIf="cardsLength > cardsPerPage" class="d-flex justify-content-center">
+  <ngb-pagination [collectionSize]="cardsLength" [pageSize]="cardsPerPage" [(page)]="currentPage"
+    (pageChange)="onPageChange($event)" aria-label="Page navigation">
+  </ngb-pagination>
+</div>
