@@ -21,7 +21,7 @@
 
 ## Screenshots
 
-![App Screenshot](./src/assets/one-piece-desk-screenshot.png)
+![App Screenshot](./src/assets/onepiece-screenshot.png)
 
 ## Demo
 
