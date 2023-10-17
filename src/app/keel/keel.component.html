@@ -1,28 +1,23 @@
-<footer class="footer bg-dark text-light py-4">
-  <div class="container">
-    <div class="row mb-2">
+<footer class="mt-auto bg-dark text-light pt-3 pb-1">
+  <div class="container-fluid">
+    <div class="row mb-4">
       <div class="col-12 d-flex justify-content-center">
         <img src="assets/one-piece-footer.png" alt="one-piece-footer" width="50">
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="d-flex justify-content-center">
-          <span class="text-center fs-5 py-2">Crafted with love 💖, some chaos 😶‍🌫️ and lots of coffee ☕!</span>
-        </div>
+    <div class="row pb-2">
+      <div class="d-flex justify-content-center justify-content-md-start col-12 col-md-4">
+        <span class="text-center fs-5">Crafted with love 💖, some chaos 😶‍🌫️ and lots of coffee ☕!</span>
       </div>
-      <div class="col-12">
-        <div class="d-flex justify-content-center">
-          <span class="text-white fs-5 me-2">Visit our GitHub repository!</span>
-          <a href="{{ repository }}" target="_blank">
-            <img src="assets/github-logo.png" alt="GitHub" width="25" height="25">
-          </a>
-        </div>
+      <div
+        class="d-flex align-items-center justify-content-center justify-content-md-end col-12 col-md-4 order-md-last">
+        <a href="{{ repository }}" target="_blank">
+          <img src="assets/github-logo.png" alt="GitHub" width="20" height="20">
+        </a>
+        <span class="text-white fs-5 ms-2">Visit our GitHub repository!</span>
       </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col-12">
-        <p class="text-center fs-6">&copy; {{ currentYear }} OnePiece Desk</p>
+      <div class="d-flex align-items-center justify-content-center col-12 col-md-4">
+        <span class="text-center fs-6">&copy; {{ currentYear }} OnePiece Desk</span>
       </div>
     </div>
   </div>
