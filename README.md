@@ -1,5 +1,9 @@
 ![Logo](./src/assets/one-piece-brand.png)
 
+# OnePiece Desk
+
+**_One Piece Desk_** is a comprehensive and interactive web application dedicated to the legendary world of _One Piece_, a popular manga and anime series created by Eiichiro Oda. This GitHub repository serves as the codebase for the _One Piece Desk_ project, offering fans and enthusiasts a dynamic platform to explore, learn, and engage with the rich and adventurous universe of _One Piece_.
+
 # Table of content
 
 - [OnePiece Desk](#onepiece)
@@ -14,10 +18,6 @@
   - [Feedback](#feedback)
   - [License](#license)
   - [Authors](#authors)
-
-# OnePiece Desk
-
-**_One Piece Desk_** is a comprehensive and interactive web application dedicated to the legendary world of _One Piece_, a popular manga and anime series created by Eiichiro Oda. This GitHub repository serves as the codebase for the _One Piece Desk_ project, offering fans and enthusiasts a dynamic platform to explore, learn, and engage with the rich and adventurous universe of _One Piece_.
 
 ## Screenshots
 
