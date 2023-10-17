@@ -6,8 +6,10 @@
       <img src="{{pirate.image}}" alt="{{pirate.name}}" />
       <figcaption>
         <h3>{{pirate.name}}<span>{{pirate.lastname ?? pirate.nickname}}</span></h3>
+        <button class="btn btn-info mt-2">
+          <span (click)="openPirateModal(pirate)" class="text-muted fs-6">See more</span>
+        </button>
       </figcaption>
-      <a (click)="openPirateModal(pirate)"></a>
     </figure>
   </div>
   <div class="d-flex justify-content-center">
