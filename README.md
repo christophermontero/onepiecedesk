@@ -6,7 +6,7 @@
 
 # Table of content
 
-- [OnePiece Desk](#onepiece)
+- [OnePiece Desk](#onepiece-desk)
   - [Screenshots](#screenshots)
   - [Demo](#demo)
   - [Tech Stack](#tech-stack)
