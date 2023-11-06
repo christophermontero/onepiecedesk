@@ -1,4 +1,4 @@
-<p align="center"><img src="./src/assets/one-piece-footer.png" alt="logo")></p>
+<p align="center"><img src="./src/assets/one-piece-footer.png" alt="logo"></p>
 
 # OnePiece Desk
 
